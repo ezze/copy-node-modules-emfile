@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy": "copy-node-modules . dist",
+    "copy": "rimraf dist && copy-node-modules . dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
